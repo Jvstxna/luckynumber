@@ -1,0 +1,17 @@
+print ("Pleasse fill the form to get your lucky number!")
+
+v = input ("Your name: ")
+pv = input ("Your last name: ")
+gd = input ("Your birthdate: ")
+g1=int(gd[0])
+g2=int(gd[1])
+g3=int(gd[2])
+g4=int(gd[3])
+g5=int(gd[5])
+g6=int(gd[6])
+g7=int(gd[8])
+g8=int(gd[9])
+
+print (v + " " + pv + " " + gd)
+print ("Your lucky number: ")
+print (g1+g2+g3+g4+g5+g6+g7+g8)
